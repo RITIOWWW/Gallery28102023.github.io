@@ -1,0 +1,143 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+main{
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	background-color: #fff;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0 20px 1px rgba(0, 0, 0, 1.0);
+}
+
+@font-face{
+	font-family: Roboto;
+	src: url(../Fonts/Roboto-Regular.ttf);
+}
+
+body{
+	background-color: #efefef;
+	font-family: Roboto;
+}
+
+.photo{
+	background-color: orange;
+	height: calc((35vw - 40px) / 16 * 9);
+	width: calc(50% - 40px);
+	margin: 20px;
+	background-position: center;
+	background-size: cover;
+	transition: all 1s ease;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.photo:hover{
+	transform: rotate(34deg) scale(1.07);
+	box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.4);
+}
+
+h1{
+	width: 100%;
+	text-align: center;
+	font-size: 70px;
+}
+
+.photo1{
+	background-image: url(../IMG/img1.jpeg)
+}
+
+.photo2{
+	background-image: url(../IMG/img2.jpeg)
+}
+
+.photo3{
+	background-image: url(../IMG/img3.jpeg)
+}
+
+.photo4{
+	background-image: url(../IMG/img4.jpeg)
+}
+
+.photo5{
+	background-image: url(../IMG/img5.jpeg)
+}
+
+.photo6{
+	background-image: url(../IMG/img6.jpeg)
+}
+
+.photo7{
+	background-image: url(../IMG/img7.jpeg)
+}
+
+.photo8{
+	background-image: url(../IMG/img8.jpeg)
+}
+
+.photo9{
+	background-image: url(../IMG/img9.jpeg)
+}
+
+.photo10{
+	background-image: url(../IMG/img10.jpeg)
+}
+
+.photo11{
+	background-image: url(../IMG/img11.jpg)
+}
+
+.photo12{
+	background-image: url(../IMG/img12.jpeg)
+}
+.photo13{
+	background-image: url(../IMG/maxresdefault.jpg)
+}
+
+.photo14{
+	background-image: url(../IMG/maxresdefault1.jpg)
+}
+
+.photo15{
+	background-image: url(../IMG/maxresdefault2.jpg)
+}
+
+.photo16{
+	background-image: url(../IMG/maxresdefault3.jpg)
+}
+
+.photo17{
+	background-image: url(../IMG/maxresdefault4.jpg)
+}
+
+.photo18{
+	background-image: url(../IMG/maxresdefault5.jpg)
+}
+
+.photo19{
+	background-image: url(../IMG/nEAAAgPZmOA-1920.jpg)
+}
+
+.photo20{
+	background-image: url(../IMG/sDfniiyLVzc.jpg)
+}
+
+.photo21{
+	background-image: url(../IMG/text-Microsoft-Windows-brand-Windows-Errors-Blue-Screen-of-Death-errors-biology-shape-line-presentation-font-ecosystem-human-action-document-82964.jpg)
+}
+
+.photo22{
+	background-image: url(../IMG/98340b04f23c2d8bc77890ba2ce5e4ba.jpg)
+}
+
+.photo23{
+	background-image: url(../IMG/ca5c1428b62a363b86e2858d397089eb.jpg)
+}
+
+.photo24{
+	background-image: url(../IMG/coachgunsupreme_large.jpg)
+}
